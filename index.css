@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding: 161px 134px 135px 134px;
+}
+.box-1{
+
+    width: 391px;
+height: 176px;
+    border-radius: 6px 0px 0px 6px;
+border: 1px solid #F3D1BF;
+}
+ul{
+    list-style-type: none;
+}
+.box-1 li h1{
+    padding: 45px 0px 13px 48px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+.box-1 li p{
+    margin-left: 48px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.box-2{
+
+       width: 391px;
+height: 176px;
+    border-radius: 6px 0px 0px 6px;
+border: 1px solid #F3D1BF; 
+}
+.box-2 li h1{
+     padding: 45px 0px 13px 48px;
+color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+.box-2 li p{
+      margin-left: 48px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.box-3{
+      width: 391px;
+height: 176px;
+    border-radius: 6px 0px 0px 6px;
+border: 1px solid #F3D1BF;  
+}
+.box-3 li h1{
+     padding: 45px 0px 13px 48px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+.box-3 li p{
+        margin-left: 48px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.container{
+    display: flex;
+}
+.container-2 h1{
+    padding: 140px 0px 17px 135px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.container-2 h2{
+    padding: 17px 152px 31px 155px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px;
+}
+.container-2 p{
+    padding: 31px 130px 28px 135px;
+color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.container-2 a{
+    padding: 28px 0px 0px 135px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
