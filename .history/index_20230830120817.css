@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+    background: #FDF0E9;
+}
+.container-1 {
+  padding: 161px 134px 140px 134px;
+}
+
+.container-1 .box-1 {
+  width: 391px;
+  height: 176px;
+  border-radius: 6px 0px 0px 6px;
+}
+.container-1 ul {
+ display: flex;
+}
+.container-1 ul li{
+    list-style-type: none;
+    width: 33.33%;
+    border: 1px solid #f3d1bf;
+    padding: 45px 0 38px 48px;
+}
+.container-1 ul li h1{
+    color: var(--text-dark, #391400);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+}
+.container-1 ul li p{
+    margin-top: 13px;
+    color: var(--text-dark, #391400);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.container-1 .box-1 li h1 {
+  padding: 45px 0px 13px 48px;
+
+}
+.container-1 .box-1 li p {
+  margin-left: 48px;
+
+}
+.container-1 .box-3 li p {
+  margin-left: 48px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.container-2 h1 {
+  padding: 140px 0px 17px 135px;
+  color: var(--text-dark-accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container-2 h2 {
+  padding: 17px 152px 31px 155px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+.container-2 p {
+  padding: 31px 130px 28px 135px;
+  color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container-2 a {
+  padding: 28px 0px 0px 135px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}

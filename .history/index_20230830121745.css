@@ -63,12 +63,8 @@
 }
 .container-2{
     padding: 0 203px 127px 135px;
- 
-}
-.container-2 .collaj-box{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .container-2 .text-container h1 {
   color: var(--text-dark-accent, #ef6d58);
@@ -117,7 +113,6 @@
 
 .container-2 ul li  {
 display: flex;
-align-items: center;
 }
 .container-2 ul li h1{
     margin-right: 60px;
@@ -142,11 +137,4 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 32px; /* 133.333% */
-}
-.container-2 hr{
-margin-top: 108px;
-width: 100%;
-height: 1px;
-background: #F3D1BF;
-border: none;
 }

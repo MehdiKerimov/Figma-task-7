@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 .container {
-  background: #fdf0e9;
-  min-height: 100vh;
+    background: #FDF0E9;
 }
 .container-1 {
+  /* display: flex; */
   padding: 161px 134px 140px 134px;
 }
 
@@ -18,15 +18,49 @@
   border-radius: 6px 0px 0px 6px;
 }
 .container-1 ul {
-  display: flex;
+ display: flex;
 }
-.container-1 ul li {
-  list-style-type: none;
-  width: 33.33%;
+.container-1 ul li{
+    list-style-type: none;
+    width: 33.33%;
+    border: 1px solid #f3d1bf;
+    padding: 45px 0 38px 48px;
+}
+.container-1 ul li h1{
+    color: var(--text-dark, #391400);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+}
+.container-1 ul li p{
+    margin-top: 13px;
+    color: var(--text-dark, #391400);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.container-1 .box-1 li h1 {
+  padding: 45px 0px 13px 48px;
+
+}
+.container-1 .box-1 li p {
+  margin-left: 48px;
+
+}
+.container-1 .box-2 {
+  width: 391px;
+  height: 176px;
+  border-radius: 6px 0px 0px 6px;
   border: 1px solid #f3d1bf;
-  padding: 45px 0 38px 48px;
 }
-.container-1 ul li h1 {
+.container-1 .box-2 li h1 {
+  padding: 45px 0px 13px 48px;
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -35,8 +69,8 @@
   font-weight: 800;
   line-height: 48px;
 }
-.container-1 ul li p {
-  margin-top: 13px;
+.container-1 .box-2 li p {
+  margin-left: 48px;
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -45,11 +79,21 @@
   font-weight: 400;
   line-height: 32px;
 }
-.container-1 .box-1 li h1 {
-  padding: 45px 0px 13px 48px;
+.container-1 .box-3 {
+  width: 391px;
+  height: 176px;
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid #f3d1bf;
 }
-.container-1 .box-1 li p {
-  margin-left: 48px;
+.container-1 .box-3 li h1 {
+  padding: 45px 0px 13px 48px;
+  color: var(--text-dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
 }
 .container-1 .box-3 li p {
   margin-left: 48px;
@@ -61,16 +105,9 @@
   font-weight: 400;
   line-height: 32px;
 }
-.container-2{
-    padding: 0 203px 127px 135px;
- 
-}
-.container-2 .collaj-box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.container-2 .text-container h1 {
+
+.container-2 h1 {
+  padding: 140px 0px 17px 135px;
   color: var(--text-dark-accent, #ef6d58);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -81,10 +118,8 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.container-2 .text-container h2 {
-    margin-top: 17px;
-    margin-bottom: 31px;
-    width: 448px;
+.container-2 h2 {
+  padding: 17px 152px 31px 155px;
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -93,8 +128,8 @@
   font-weight: 800;
   line-height: 48px;
 }
-.container-2 .text-container p {
-    width: 470px;
+.container-2 p {
+  padding: 31px 130px 28px 135px;
   color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -103,8 +138,8 @@
   font-weight: 400;
   line-height: 32px;
 }
-.container-2 .text-container a {
-    margin-top: 28px;
+.container-2 a {
+  padding: 28px 0px 0px 135px;
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -112,41 +147,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  text-decoration: none;
-}
-
-.container-2 ul li  {
-display: flex;
-align-items: center;
-}
-.container-2 ul li h1{
-    margin-right: 60px;
-    color: #391400;
-font-feature-settings: 'clig' off, 'liga' off;
-
-/* H1 */
-font-family: Epilogue;
-font-size: 72px;
-font-style: normal;
-font-weight: 800;
-line-height: 80px; /* 111.111% */
-letter-spacing: -2px;
-}
-.container-2 ul li p{
-    color: var(--text-dark, #391400);
-font-feature-settings: 'clig' off, 'liga' off;
-
-/* H4 */
-font-family: Epilogue;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 32px; /* 133.333% */
-}
-.container-2 hr{
-margin-top: 108px;
-width: 100%;
-height: 1px;
-background: #F3D1BF;
-border: none;
 }
